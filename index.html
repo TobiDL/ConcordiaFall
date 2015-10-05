@@ -21,6 +21,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="dist/sweetalert.min.js"></script> <link rel="stylesheet" type="text/css" href="dist/sweetalert.css">
     <title>Fall 2015</title>
 
     <!-- Add to homescreen for Chrome on Android -->
@@ -143,13 +144,17 @@
             <a style="text-decoration:none" href="https://fis.encs.concordia.ca/eas/">ENCS submission</a><span>&nbsp;&nbsp;&nbsp;</span>
             <a style="text-decoration:none" href="http://www.hackconcordia.com/">Hack Concordia</a><span>&nbsp;&nbsp;&nbsp;</span>
             <a style="text-decoration:none" href="http://scsconcordia.ca/">SCS</a><span>&nbsp;&nbsp;&nbsp;</span>
-            <a style="text-decoration:none" href="https://fis.encs.concordia.ca/helpdesk-cgi/doorcode.cgi">Door Code</a><span>&nbsp;&nbsp;&nbsp;</span>
+            <span style="font-weight: 500; color:#ffab40;" onclick="doorCode()">Door Code</span><span>&nbsp;&nbsp;&nbsp;</span>
             <a style="text-decoration:none" href="https://mail.encs.concordia.ca/horde/imp/">ENCS email</a>
           </div>
         </footer>
       </main>
       <div class="mdl-layout__obfuscator"></div>
     </div>
+	<script>function doorCode() {
+		swal("Everything 273874", "H962 and H966 153672");
+	}
+	</script>
     <script src="../../material.min.js"></script>
   </body>
   <script>
